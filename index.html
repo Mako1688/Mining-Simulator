@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="title">Mining Simulator</title>
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" />
+  <script type="module" crossorigin src="/Mining-Simulator/assets/index-DcJFsyqf.js"></script>
+  <link rel="stylesheet" crossorigin href="/Mining-Simulator/assets/index-6EvVCUzJ.css">
+<link rel="manifest" href="/Mining-Simulator/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/Mining-Simulator/registerSW.js"></script></head>
+
+<body>
+  <div id="title">
+    <h1 data-translate="title">Mining Simulator</h1>
+  </div>
+  <div id="language-buttons">
+    <button id="lang-en" data-translate="langEn">English</button>
+    <button id="lang-ar" data-translate="langAr">Arabic</button>
+    <button id="lang-zh" data-translate="langZh">Chinese</button>
+  </div>
+  <div id="game-container">
+    <div id="phaser-game"></div>
+    <div id="info-panel">
+      <div id="info-panel-left">
+        <h2 id="victoryCondition" data-translate="collectGoal">Collect<br />1000 Resources<br />to Win!</h2>
+        <button id="saveButton" data-translate="save">Save</button>
+        <button id="loadButton" data-translate="load">Load</button>
+        <button id="saveSlot1" data-translate="file1">File 1</button>
+        <button id="saveSlot2" data-translate="file2">File 2</button>
+        <button id="saveSlot3" data-translate="file3">File 3</button>
+        <button id="loadSlot1" data-translate="file1">File 1</button>
+        <button id="loadSlot2" data-translate="file2">File 2</button>
+        <button id="loadSlot3" data-translate="file3">File 3</button>
+        <button id="exitButton" data-translate="back">Back</button>
+        <button id="undoButton" data-translate="undo">Undo</button>
+        <button id="redoButton" data-translate="redo">Redo</button>
+      </div>
+      <div id="info-panel-middle">
+        <h2 data-translate="playerStats">Player Stats</h2>
+        <div id="playerDisplay">
+          <span data-translate="resources">Resources</span>: 100<br />
+          <span data-translate="turns">Turns</span>: 0<br />
+          <span data-translate="buildingsPlaced">Buildings Placed</span>: 0
+        </div>
+      </div>
+      <div id="info-panel-right">
+        <h2 data-translate="actions">Actions</h2>
+        <button id="buyDrillButton" data-translate="buyDrill">Buy Drill</button>
+        <button id="buyExcavatorButton" data-translate="buyExcavator">Buy Excavator</button>
+        <button id="buyDemolitionPlantButton" data-translate="buyDemolitionPlant">Buy Demolition Plant</button>
+        <button id="nextRoundButton" data-translate="startNextRound">Start Next Round</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
