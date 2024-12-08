@@ -6,10 +6,10 @@ export class LoadScene extends Phaser.Scene {
   }
 
   preload(): void {
-    this.load.text("scenario", "config/scenario.yaml");
+    this.load.text("scenario", "Mining-Simulator/config/scenario.yaml");
 
     // load assets
-    this.load.path = "assets/";
+    this.load.path = "Mining-Simulator/assets/";
 
     this.load.atlas("player", "Astronaut_Idle.png", "Astronaut_Idle.json");
     this.load.image("cell", "cell.png");
