@@ -1,0 +1,89 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: rgb(166, 159, 173);
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #102c42;
+  text-align: center;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  border: 8px solid black;
+  border-radius: 10px;
+  width: 100%; /* Ensure the game container takes up the full width */
+  max-width: 710px; /* Set a max width to match the game screen */
+}
+
+#phaser-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensure the game screen takes up the full width */
+  height: 410px;
+  background-color: rgb(130, 138, 255);
+}
+
+#info-panel {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(114, 117, 168);
+  border: 6px solid rgb(130, 138, 255);
+}
+
+#info-panel-left,
+#info-panel-middle,
+#info-panel-right {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  padding: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(156, 167, 206);
+  box-shadow: 0px 4px 0 0 rgb(0, 0, 0);
+  border-radius: 4px;
+  border: 3px solid black;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #74adf7;
+  transform: scale(1.05);
+}
+
+#playerDisplay {
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  margin: 0 10px; /* Add margin to avoid text overflow */
+}
